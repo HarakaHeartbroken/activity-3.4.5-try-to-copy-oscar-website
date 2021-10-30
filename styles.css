@@ -1,0 +1,60 @@
+* {
+    border: 1px solid gold;
+}
+
+div {
+    background-color: white;
+    color: black;
+}
+
+div.top {
+    background-color: rgb(17, 77, 77); 
+    color: white;
+}
+
+nav {
+    border-bottom: 1px solid white;
+}
+
+nav li {
+    display:inline-block;
+    padding: 5em;
+}
+
+
+/* Test for flexbox for header vs header li styling */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header li {
+    display:inline-block;
+    padding: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+li.shop {
+    border: 1px solid white;
+    border-radius: 20%;
+}
+
+form {
+    border: 5px solid red;
+}
+
+div.content {
+    display: flexbox;
+}
